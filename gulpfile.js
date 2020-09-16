@@ -6,7 +6,7 @@ gulp.task('serve', function(done) {
   browserSync.init({
       server: {
         baseDir: "./dist",
-        index: "page.html"
+        index: "carousel.html"
       }
   });
 

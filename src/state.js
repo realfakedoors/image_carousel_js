@@ -1,5 +1,5 @@
-const defaultObject = ( param1, param2 ) => {
-  return { param1, param2 };
-};
+// const defaultObject = ( param1, param2 ) => {
+//   return { param1, param2 };
+// };
 
-export { defaultObject };
+// export { defaultObject };

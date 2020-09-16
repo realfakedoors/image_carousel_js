@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   entry: './src/index.js',
   output: {
-    filename: 'script.js',
+    filename: 'carousel.js',
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {

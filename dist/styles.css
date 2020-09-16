@@ -1,1 +1,51 @@
-/* this file is for your custom CSS. */
+.carousel {
+  position: relative;
+
+  height: 500px;
+  width: 700px;
+  margin: 20px auto;
+
+  border: 3px solid grey;
+  border-radius: 13px;
+}
+
+.display {
+  height: 66%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-bottom: 3px solid grey;
+}
+
+.button {
+  height: 45px;
+  width: 45px;
+
+  background-color: lightgreen;
+}
+
+.current-image {
+  height: 300px;
+  width: 500px;
+
+  background-color: lightblue;
+}
+
+.gallery {
+  height: 33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  overflow-x: auto;
+}
+
+.gallery-photo {
+  flex: 0 0 auto;
+  height: 90px;
+  width: 120px;
+  margin: 0 10px;
+
+  background-color: lightblue;
+}
