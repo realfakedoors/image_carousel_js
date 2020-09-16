@@ -1,0 +1,4 @@
+/node_modules
+package-lock.json
+
+# Throw any files/folders you might want to ignore in here...

@@ -1,0 +1,25 @@
+{
+  "name": "front_end_template",
+  "version": "1.1.0",
+  "description": "A bare-bones template for front-end projects.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realfakedoors/front_end_template.git"
+  },
+  "author": "Andy Holt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realfakedoors/front_end_template/issues"
+  },
+  "homepage": "https://github.com/realfakedoors/front_end_template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
