@@ -5,7 +5,7 @@
   width: 700px;
   margin: 20px auto;
 
-  border: 3px solid grey;
+  border: 3px solid #ffc266;
   border-radius: 13px;
 }
 
@@ -15,37 +15,74 @@
   align-items: center;
   justify-content: space-evenly;
 
-  border-bottom: 3px solid grey;
+  border-bottom: 3px solid #ffc266;
 }
 
 .button {
   height: 45px;
   width: 45px;
 
-  background-color: lightgreen;
+  background-color: #99ffcc;
+  font-size: 40px;
+  line-height: 40px;
+  color: #00b359;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #33ff99;
+  color: #008040;
 }
 
 .current-image {
   height: 300px;
   width: 500px;
 
-  background-color: lightblue;
+  background-color: #00cccc;
 }
 
 .gallery {
+  position: relative;
+
   height: 33%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  margin: 0 10px;
 
-  overflow-x: auto;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  height: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e6e6e6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffc266;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9900;
 }
 
 .gallery-photo {
+  display: inline-block;
   flex: 0 0 auto;
   height: 90px;
   width: 120px;
-  margin: 0 10px;
+  margin: 0 8px;
 
-  background-color: lightblue;
+  background-color: #00cccc;
+}
+
+.gallery-photo:hover {
+  box-shadow: 0 0 15px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
